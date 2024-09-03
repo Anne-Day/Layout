@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-origin: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 81, 81);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: rgb(195, 195, 195);
+}
+
+.logoContainer {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav {
+}
+
+.acesso{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 81, 81);
+    margin-left: 20px;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+    text-align: justify;
+}
+
+h2 {
+    padding-left: 120px;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+p {
+    padding-left: 120px;
+    font-size: larger;
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+.slider {
+    flex: 1;
+    display: flex;
+    padding-right: 140px;
+    background-color: rgb(159, 159, 159);
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.servicos, .trabalhosRecentes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px
+}
+
+.servicosItens, .itensTrabalho {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+    width: 25%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.twitterFeed {
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+    text-align:justify;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+    text-align: center;
+}
+
+nav {
+}
+
+.acesso {
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+a {
+   margin: 0 10px;
+   text-decoration: none;
+   color: rgb(81, 81, 81);
+}
+
+p {
+    font-size: large;
+    color: rgb(81, 81, 81);
+}
